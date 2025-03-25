@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagementSystem_New.Classes
 {
-    public class Admin
+    public class Admin : User
     {
         // Constructor for Admin class
         public Admin(string name, string id) : base(name, id) { }
